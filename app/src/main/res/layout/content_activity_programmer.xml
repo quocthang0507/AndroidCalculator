@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_programmer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.activity_programmer"
+    tools:ignore="HardcodedText"
+    tools:showIn="@layout/activity_programmer">
+
+    <TextView
+        android:id="@+id/tv_exp"
+        style="@style/MyTextView"
+        android:layout_weight="2.2"
+        android:gravity="center_vertical|right"
+        android:textSize="55sp" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        style="@style/MyTextView"
+        android:layout_weight="2.3"
+        android:gravity="center_vertical|right"
+        android:text="0"
+        android:textSize="@dimen/display_text_size" />
+
+    <LinearLayout
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.4">
+
+        <Button
+            android:id="@+id/btn_hex"
+            style="@style/MyMiniButton"
+            android:onClick="btn_base_OnClick"
+            android:text="HEX" />
+
+        <TextView
+            android:id="@+id/tv_hex"
+            style="@style/MyMiniTextView"
+            android:layout_marginLeft="5pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.4">
+
+        <Button
+            android:id="@+id/btn_dec"
+            style="@style/MyMiniButton"
+            android:onClick="btn_base_OnClick"
+            android:text="DEC" />
+
+        <TextView
+            android:id="@+id/tv_dec"
+            style="@style/MyMiniTextView"
+            android:layout_marginLeft="5pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.4">
+
+        <Button
+            android:id="@+id/btn_oct"
+            style="@style/MyMiniButton"
+            android:onClick="btn_base_OnClick"
+            android:text="OCT" />
+
+        <TextView
+            android:id="@+id/tv_oct"
+            style="@style/MyMiniTextView"
+            android:layout_marginLeft="5pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.4">
+
+        <Button
+            android:id="@+id/btn_bin"
+            style="@style/MyMiniButton"
+            android:onClick="btn_base_OnClick"
+            android:text="BIN" />
+
+        <TextView
+            android:id="@+id/tv_bin"
+            style="@style/MyMiniTextView"
+            android:layout_marginLeft="5pt"
+            android:maxLines="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.3">
+
+        <Button
+            android:id="@+id/btn_or"
+            style="@style/MyButton"
+            android:onClick="btn_opr_OnClick"
+            android:text="Or" />
+
+        <Button
+            android:id="@+id/btn_xor"
+            style="@style/MyButton"
+            android:onClick="btn_opr_OnClick"
+            android:text="Xor" />
+
+        <Button
+            android:id="@+id/btn_not"
+            style="@style/MyButton"
+            android:onClick="btn_not_onClick"
+            android:text="Not" />
+
+        <Button
+            android:id="@+id/btn_and"
+            style="@style/MyButton"
+            android:onClick="btn_opr_OnClick"
+            android:text="And" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.3">
+
+        <Button
+            android:id="@+id/btn_lsh"
+            style="@style/MyButton"
+            android:onClick="btn_opr_OnClick"
+            android:text="Lsh" />
+
+        <Button
+            android:id="@+id/btn_rsh"
+            style="@style/MyButton"
+            android:onClick="btn_opr_OnClick"
+            android:text="Rsh" />
+
+        <Button
+            android:id="@+id/btn_rol"
+            style="@style/MyButton"
+            android:onClick="btn_rotateLeft_onClick"
+            android:text="RoL" />
+
+        <Button
+            android:id="@+id/btn_ror"
+            style="@style/MyButton"
+            android:onClick="btn_rotateRight_onClick"
+            android:text="RoR" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.3">
+
+        <Button
+            android:id="@+id/btn_CE"
+            style="@style/MyButton"
+            android:onClick="btn_delete_onClick"
+            android:text="CE" />
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            style="@style/MyButton"
+            android:onClick="btn_backspace_onClick"
+            android:src="@drawable/ic_backspace" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_1"
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.3">
+
+        <Button
+            android:id="@+id/btn_a"
+            style="@style/MyButton"
+            android:onClick="btn_number_OnClick"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/btn_b"
+            style="@style/MyButton"
+            android:onClick="btn_number_OnClick"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/btn_7"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn_8"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn_9"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="9" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_2"
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.3">
+
+        <Button
+            android:id="@+id/btn_c"
+            style="@style/MyButton"
+            android:onClick="btn_number_OnClick"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/btn_d"
+            style="@style/MyButton"
+            android:onClick="btn_number_OnClick"
+            android:text="D" />
+
+
+        <Button
+            android:id="@+id/btn_4"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn_5"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn_6"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_3"
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.3">
+
+        <Button
+            android:id="@+id/btn_e"
+            style="@style/MyButton"
+            android:onClick="btn_number_OnClick"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/btn_f"
+            style="@style/MyButton"
+            android:onClick="btn_number_OnClick"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn_2"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn_3"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout"
+        android:layout_weight="2.3">
+
+        <Button
+            android:id="@+id/btn_open"
+            style="@style/MyButton"
+            android:onClick="btn_parenthesis_onClick"
+            android:text="(" />
+
+        <Button
+            android:id="@+id/btn_close"
+            style="@style/MyButton"
+            android:onClick="btn_parenthesis_onClick"
+            android:text=")" />
+
+        <ImageButton
+            android:id="@+id/btn_neg"
+            style="@style/MyButton"
+            android:onClick="btn_neg_onClick"
+            android:src="@drawable/ic_plus_minus" />
+
+        <Button
+            android:id="@+id/btn_0"
+            style="@style/MyNumberButton"
+            android:onClick="btn_number_OnClick"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btn_equal"
+            style="@style/MyButton"
+            android:onClick="btn_equal_OnClick"
+            android:text="=" />
+
+    </LinearLayout>
+
+</LinearLayout>

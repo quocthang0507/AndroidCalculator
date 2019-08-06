@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-->Group of Calculator-->
+	<group
+		android:id="@+id/group1"
+		android:checkableBehavior="single"
+		android:title="@string/app_name">
+		<item
+			android:id="@+id/cal_standard"
+			android:icon="@drawable/ic_standard"
+			android:title="@string/cal_stand"
+			android:tooltipText="@string/cal_stand" />
+		<item
+			android:id="@+id/cal_scientific"
+			android:icon="@drawable/ic_scientific"
+			android:title="@string/cal_scien"
+			android:tooltipText="@string/cal_scien" />
+		<item
+			android:id="@+id/cal_programmer"
+			android:icon="@drawable/ic_programmer"
+			android:title="@string/cal_prog"
+			android:tooltipText="@string/cal_prog" />
+		<item
+			android:id="@+id/cal_date"
+			android:icon="@drawable/ic_date"
+			android:title="@string/calc_date"
+			android:tooltipText="@string/calc_date" />
+	</group>
+
+	<!-->Group of Converter-->
+	<group
+		android:id="@+id/group2"
+		android:checkableBehavior="single"
+		android:title="Converter">
+		<item
+			android:id="@+id/con_currency"
+			android:icon="@drawable/ic_currency"
+			android:title="@string/con_curr"
+			android:tooltipText="@string/con_curr" />
+		<item
+			android:id="@+id/con_volume"
+			android:icon="@drawable/ic_volume"
+			android:title="@string/con_vol"
+			android:tooltipText="@string/con_vol" />
+		<item
+			android:id="@+id/con_length"
+			android:icon="@drawable/ic_length"
+			android:title="@string/con_len"
+			android:tooltipText="@string/con_len" />
+		<item
+			android:id="@+id/con_weight"
+			android:icon="@drawable/ic_weight"
+			android:title="@string/con_wei"
+			android:tooltipText="@string/con_wei" />
+		<item
+			android:id="@+id/con_temperature"
+			android:icon="@drawable/ic_temperature"
+			android:title="@string/con_temp"
+			android:tooltipText="@string/con_temp" />
+		<item
+			android:id="@+id/con_energy"
+			android:icon="@drawable/ic_energy"
+			android:title="@string/con_ene"
+			android:tooltipText="@string/con_ene" />
+		<item
+			android:id="@+id/con_area"
+			android:icon="@drawable/ic_area"
+			android:title="@string/con_area"
+			android:tooltipText="@string/con_area" />
+		<item
+			android:id="@+id/con_speed"
+			android:icon="@drawable/ic_speed"
+			android:title="@string/con_spe"
+			android:tooltipText="@string/con_spe" />
+		<item
+			android:id="@+id/con_time"
+			android:icon="@drawable/ic_time"
+			android:title="@string/con_time"
+			android:tooltipText="@string/con_time" />
+		<item
+			android:id="@+id/con_power"
+			android:icon="@drawable/ic_power"
+			android:title="@string/con_pow"
+			android:tooltipText="@string/con_pow" />
+		<item
+			android:id="@+id/con_data"
+			android:icon="@drawable/ic_data"
+			android:title="@string/con_data"
+			android:tooltipText="@string/con_data" />
+		<item
+			android:id="@+id/con_pressure"
+			android:icon="@drawable/ic_pressure"
+			android:title="@string/con_pre"
+			android:tooltipText="@string/con_pre" />
+		<item
+			android:id="@+id/con_angle"
+			android:icon="@drawable/ic_angle"
+			android:title="@string/con_ang"
+			android:tooltipText="@string/con_ang" />
+	</group>
+
+	<!-->About-->
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/about"
+			android:icon="@drawable/ic_about"
+			android:title="@string/about"
+			android:tooltipText="@string/about" />
+	</group>
+</menu>

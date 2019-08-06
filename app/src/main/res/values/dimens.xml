@@ -1,0 +1,9 @@
+<!--Base application size-->
+<resources>
+    <dimen name="min_widget_width">250dp</dimen>
+    <dimen name="min_widget_height">250dp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="formula_text_size">55sp</dimen>
+    <dimen name="display_text_size">50sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

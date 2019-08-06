@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/layout_standard"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/background"
+	android:orientation="vertical"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	tools:context=".Activity.activity_standard"
+	tools:ignore="HardcodedText"
+	tools:showIn="@layout/activity_standard">
+
+	<TextView
+		android:id="@+id/formula"
+		style="@style/MyTextView"
+		android:gravity="center_vertical|right"
+		android:textSize="@dimen/formula_text_size" />
+
+	<TextView
+		android:id="@+id/result"
+		style="@style/MyTextView"
+		android:gravity="center_vertical|right"
+		android:text="0"
+		android:textSize="@dimen/display_text_size" />
+
+	<LinearLayout style="@style/MyLinearLayout">
+
+		<Button
+			android:id="@+id/btn_percent"
+			style="@style/MyButton"
+			android:onClick="btn_percent_OnClick"
+			android:text="%" />
+
+		<ImageButton
+			android:id="@+id/btn_sqrt"
+			style="@style/MyButton"
+			android:onClick="btn_sqrt_OnClick"
+			android:src="@drawable/ic_sqrt" />
+
+		<ImageButton
+			android:id="@+id/btn_square"
+			style="@style/MyButton"
+			android:onClick="btn_square_OnClick"
+			android:src="@drawable/ic_square" />
+
+		<ImageButton
+			android:id="@+id/btn_inverse"
+			style="@style/MyButton"
+			android:onClick="btn_reverse_OnClick"
+			android:src="@drawable/ic_inverse" />
+
+	</LinearLayout>
+
+	<LinearLayout style="@style/MyLinearLayout">
+
+		<Button
+			android:id="@+id/btn_CE"
+			style="@style/MyButton"
+			android:onClick="btn_deleteAll_OnClick"
+			android:text="CE" />
+
+		<Button
+			android:id="@+id/btn_C"
+			style="@style/MyButton"
+			android:onClick="btn_delete_OnClick"
+			android:text="C" />
+
+		<ImageButton
+			android:id="@+id/btn_back"
+			style="@style/MyButton"
+			android:onClick="btn_backspace_OnClick"
+			android:src="@drawable/ic_backspace" />
+
+		<ImageButton
+			android:id="@+id/btn_div"
+			style="@style/MyButton"
+			android:onClick="btn_opr_OnClick"
+			android:src="@drawable/ic_div" />
+
+	</LinearLayout>
+
+	<LinearLayout style="@style/MyLinearLayout">
+
+		<Button
+			android:id="@+id/btn_7"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="7" />
+
+		<Button
+			android:id="@+id/btn_8"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="8" />
+
+		<Button
+			android:id="@+id/btn_9"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="9" />
+
+		<ImageButton
+			android:id="@+id/btn_mul"
+			style="@style/MyButton"
+			android:onClick="btn_opr_OnClick"
+			android:src="@drawable/ic_mul" />
+
+	</LinearLayout>
+
+	<LinearLayout style="@style/MyLinearLayout">
+
+		<Button
+			android:id="@+id/btn_4"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="4" />
+
+		<Button
+			android:id="@+id/btn_5"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="5" />
+
+		<Button
+			android:id="@+id/btn_6"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="6" />
+
+		<ImageButton
+			android:id="@+id/btn_sub"
+			style="@style/MyButton"
+			android:onClick="btn_opr_OnClick"
+			android:src="@drawable/ic_minus" />
+
+	</LinearLayout>
+
+	<LinearLayout style="@style/MyLinearLayout">
+
+		<Button
+			android:id="@+id/btn_1"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="1" />
+
+		<Button
+			android:id="@+id/btn_2"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="2" />
+
+		<Button
+			android:id="@+id/btn_3"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="3" />
+
+		<ImageButton
+			android:id="@+id/btn_plus"
+			style="@style/MyButton"
+			android:onClick="btn_opr_OnClick"
+			android:src="@drawable/ic_plus" />
+	</LinearLayout>
+
+	<LinearLayout style="@style/MyLinearLayout">
+
+		<ImageButton
+			android:id="@+id/btn_neg"
+			style="@style/MyButton"
+			android:onClick="btn_neg_OnClick"
+			android:src="@drawable/ic_plus_minus" />
+
+		<Button
+			android:id="@+id/btn_0"
+			style="@style/MyNumberButton"
+			android:onClick="btn_number_OnClick"
+			android:text="0" />
+
+		<Button
+			android:id="@+id/btn_dot"
+			style="@style/MyButton"
+			android:onClick="btn_dot_OnClick"
+			android:text="." />
+
+		<ImageButton
+			android:id="@+id/btn_equal"
+			style="@style/MyButton"
+			android:onClick="btn_equal_OnClick"
+			android:src="@drawable/ic_equal" />
+	</LinearLayout>
+
+</LinearLayout>

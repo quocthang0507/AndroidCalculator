@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.activity_temperature"
+    tools:showIn="@layout/activity_temperature">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_temperature_1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:inputType="numberDecimal"
+            android:hint="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:layout_gravity="left" />
+
+        <Spinner
+            android:id="@+id/spinner_temperature_1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+
+        <ImageButton
+            android:id="@+id/btn_down"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/ic_down" />
+
+        <ImageButton
+            android:id="@+id/btn_up"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/ic_up" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_temperature_2"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:inputType="numberDecimal"
+            android:hint="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:layout_gravity="left" />
+
+        <Spinner
+            android:id="@+id/spinner_temperature_2"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<resources>
+	<string name="app_name">Calculator</string>
+	<string name="tag">1610207_Calculator</string>
+	<string name="group_1">Calculator</string>
+	<string name="cal_stand">Standard</string>
+	<string name="cal_scien">Scientific</string>
+	<string name="cal_prog">Programmer</string>
+	<string name="calc_date">Date Calculation</string>
+	<string name="group_2">Converter</string>
+	<string name="con_curr">Currency</string>
+	<string name="con_vol">Volume</string>
+	<string name="con_len">Length</string>
+	<string name="con_wei">Weight and Mass</string>
+	<string name="con_temp">Temperature</string>
+	<string name="con_ene">Energy</string>
+	<string name="con_area">Area</string>
+	<string name="con_spe">Speed</string>
+	<string name="con_time">Time</string>
+	<string name="con_pow">Power</string>
+	<string name="con_data">Data</string>
+	<string name="con_pre">Pressure</string>
+	<string name="con_ang">Angle</string>
+	<string name="about">About</string>
+	<string name="title">About...</string>
+	<string name="message">Author: La Quốc Thắng \r\nStudent ID: 1610207\r\nStudy at: Information Technology Department - Dalat University\r\n\nEmail 1: quocthang0507@gmail.com\r\nEmail 2: quocthang_0507@yahoo.com.vn\r\n"</string>
+	<string name="button">OK, Thank author a lot :)))</string>
+	<string name="intro">Welcome you to my calculator! \nPlease tap the menu icon and choose a feature</string>
+	<string-array name="dateMode">
+		<item>Difference between dates</item>
+		<item>Add or subtract days</item>
+	</string-array>
+	<string name="title_activity_standard">activity_standard</string>
+	<string name="title_activity_programmer">activity_programmer</string>
+	<string name="title_activity_scientific">activity_scientific</string>
+	<string name="title_activity_date">activity_date</string>
+	<string name="title_activity_angle">activity_angle</string>
+	<string name="title_activity_area">Area Converter</string>
+	<string name="title_activity_currency">activity_currency</string>
+	<string name="title_activity_data">activity_data</string>
+	<string name="title_activity_energy">activity_energy</string>
+	<string name="title_activity_length">activity_length</string>
+	<string name="title_activity_power">activity_power</string>
+	<string name="title_activity_pressure">activity_pressure</string>
+	<string name="title_activity_weight">activity_weight</string>
+	<string name="title_activity_volume">activity_volume</string>
+	<string name="title_activity_time">activity_time</string>
+	<string name="title_activity_temperature">activity_temperature</string>
+	<string name="title_activity_speed">activity_speed</string>
+	<string name="requirement">Internet connection required!</string>
+	<string name="nointernet">Please ensure that you have a stable internet connection</string>
+	<string name="caculate_diff">Please tap \'Difference\' word to calculate the different dates</string>
+	<string name="caculate_date">Please tap \'Date\' word to calculate date</string>
+	<string name="history">History</string>
+	<string name="result">Result :</string>
+	<string name="title_context_menu">Select an action</string>
+	<string name="context_menu_select">Select</string>
+	<string name="context_menu_delete">Delete</string>
+	<string name="context_menu_delete_all">Delete all</string>
+	<string name="context_menu_delete_but_others">Delete others</string>
+</resources>
