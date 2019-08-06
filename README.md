@@ -1,5 +1,5 @@
 # AndroidCalculator
-> Ứng dụng Calculator - Báo cáo môn học Lập trình trên thiết bị di động (12/2018)
+> Ứng dụng Calculator - Báo cáo môn học Lập trình trên thiết bị di động
 
 ## Cài đặt
 
