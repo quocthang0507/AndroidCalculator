@@ -3,6 +3,8 @@
 
 ## Cài đặt
 
+![Main Screen](screenshot-gif.gif?raw=true "Main Screen")
+
 ## Lưu ý
 
 - Một số tính năng hiện không khả dụng - chỉ có Front-end chứ chưa có Back-end
